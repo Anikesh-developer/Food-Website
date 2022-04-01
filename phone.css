@@ -1,0 +1,229 @@
+/* navigation */
+@media screen and  (max-width:1245px){
+    /* navigation */
+    #navbar {
+        height: 23vh;
+    }
+    #navbar::before {
+        width: 100%;
+        height: 100%;
+    }
+    #logo{
+        height: 26px;
+    }
+    nav img {
+        margin: 4px 15px;
+        height: 20vh;
+    }
+    .btn{
+        height: 11vh;
+        margin: 13px 10px;
+    }
+    /* Home */
+    #home {
+        height: 391px;
+    }
+    #home::before{
+        height: 212%;
+    }
+    /* services */
+
+    /* client */
+    #client-section::before {
+        height: 100%;
+    }
+    #client-section{
+        height: 205px;
+    }
+
+    /* contact */
+    #contact {
+        height: 300px;
+    }
+    #contact::before {
+        height: 146%
+    }
+    /* footer */
+    footer{
+        height: 10vh;
+    }
+}
+@media screen and (max-width:850px){
+    /* navigation */
+        #navbar {
+            height: 43vh;
+        }
+        nav img {
+            height: 40vh;
+        }
+        .nav-item {
+            position: absolute;
+            top: 58px;
+            left: 218px;
+        }
+        .Search {
+            position: absolute;
+            top: 20px;
+            left: 300px;
+        }
+        #navbar button{
+            position: absolute;
+            left: 523px;
+            margin: 19px 10px;
+        }
+        .login{
+            position: absolute;
+            top: 16px;
+            right: 3px;
+        }
+        
+    /* home */
+        #home{
+            padding: 3px 97px;
+        }
+        #home h1{
+            top: 42px;
+        }
+        .h-primary{
+            position: relative;
+            top: -9px;
+        }
+        #home p{
+            position: relative;
+            top: 40px;
+        }
+        #home button {
+            position: relative;
+            bottom: -38px;
+        }
+    
+    /* services */
+        #services{
+            flex-direction: column;
+        }
+        #services .box{
+            padding: 16px;
+            margin: 8px 162px;
+        }
+        #services .box img {
+            height: 169px;
+        }
+        #img6{
+            width: 225px;
+        }
+}
+/* Phone version */
+@media screen and (max-width:768px){
+    /* navigation */
+    #navbar {
+        height: 50vh;
+    }
+    #logo{
+        height: 50vh;
+    }
+    nav img {
+        height: 40vh;
+    }
+    .nav-item {
+        top: 75px;
+        left: 138px;
+    }
+    .Search {
+        left: 165px;
+    }
+    .search input{
+        height: 10vh;
+        color: black;
+        width: 37vw;
+    }
+    #navbar button{
+        position: relative;
+        left: 257px;
+        margin: 19px 10px;
+    }
+    .login{
+        flex-direction: column;
+        color: black;
+    }
+    
+/* home */
+    #home{
+        padding: 3px 34px;
+    }
+    #home h1{
+        top: 44px;
+    }
+    .h-primary{
+        position: relative;
+    }
+    #home p{
+        top: 44px;
+    }
+
+/* services */
+    #services{
+        flex-direction: column;
+    }
+    #img6{
+        width: 193px;
+    }
+    #services .box img {
+        height: 120px;
+    }
+}
+@media screen and (max-width:561px){
+        /* navigation */
+    #navbar {
+        height: 50vh;
+    }
+    #logo{
+        height: 50vh;
+    }
+    nav img {
+        height: 40vh;
+    }
+    .nav-item {
+        top: 75px;
+        left: 110px;
+    }
+    .Search {
+        left: 172px;
+    }
+    .search input{
+        height: 10vh;
+        color: black;
+        width: 37vw;
+    }
+    #navbar button{
+        position: relative;
+        left: 248px;
+        margin: 18px 10px;
+    }
+    .login{
+        flex-direction: column;
+        color: black;
+    }
+    
+/* home */
+    #home{
+        padding: 0px 34px;
+    }
+    #home h1{
+        top: 52px;
+    }
+    .h-primary{
+        position: relative;
+    }
+    #home p{
+        top: 52px;
+    }
+
+/* services */
+    #services{
+        flex-direction: column;
+    }
+    #services .box img {
+        height: 116px;
+        width: 177px;
+    }
+}

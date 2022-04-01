@@ -1,0 +1,39 @@
+.General{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    margin: 20px 10px;
+    border-radius: 4px;
+    padding: 3px 4px;
+    background-color: #c04b4b00;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    color: black;
+    font-size: 2rem;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#home p{
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+}

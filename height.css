@@ -1,0 +1,21 @@
+/* nav */
+
+
+/* home */
+#home::before {
+    height: 159%;
+}
+
+/* serivces */
+
+/* client */
+#client-section {
+    height: 274px;
+}
+
+/* contact  */
+#contact::before {
+    height: 110%;
+}
+
+/* footer */
