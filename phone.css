@@ -1,229 +1,253 @@
-/* navigation */
 @media screen and  (max-width:1245px){
-    /* navigation */
+/* navigation */
     #navbar {
-        height: 23vh;
+        height: 11vh;
     }
     #navbar::before {
         width: 100%;
         height: 100%;
     }
     #logo{
-        height: 26px;
+        height: 11px;
     }
     nav img {
         margin: 4px 15px;
-        height: 20vh;
+        height: 12vh;
     }
     .btn{
-        height: 11vh;
-        margin: 13px 10px;
+        height: 4vh;
+        margin: 17px 10px;
     }
     /* Home */
     #home {
-        height: 391px;
+        height: 494px;
     }
     #home::before{
-        height: 212%;
+        height: 100%;
     }
     /* services */
 
     /* client */
     #client-section::before {
-        height: 100%;
+        height: 46%;
     }
     #client-section{
-        height: 205px;
+        height: 230px;
     }
 
     /* contact */
     #contact {
-        height: 300px;
+        height: 350px;
     }
     #contact::before {
-        height: 146%
+        height: 70%;
     }
     /* footer */
     footer{
         height: 10vh;
     }
 }
-@media screen and (max-width:850px){
-    /* navigation */
-        #navbar {
-            height: 43vh;
-        }
-        nav img {
-            height: 40vh;
-        }
-        .nav-item {
-            position: absolute;
-            top: 58px;
-            left: 218px;
-        }
-        .Search {
-            position: absolute;
-            top: 20px;
-            left: 300px;
-        }
-        #navbar button{
-            position: absolute;
-            left: 523px;
-            margin: 19px 10px;
-        }
-        .login{
-            position: absolute;
-            top: 16px;
-            right: 3px;
-        }
-        
-    /* home */
-        #home{
-            padding: 3px 97px;
-        }
-        #home h1{
-            top: 42px;
-        }
-        .h-primary{
-            position: relative;
-            top: -9px;
-        }
-        #home p{
-            position: relative;
-            top: 40px;
-        }
-        #home button {
-            position: relative;
-            bottom: -38px;
-        }
-    
-    /* services */
-        #services{
-            flex-direction: column;
-        }
-        #services .box{
-            padding: 16px;
-            margin: 8px 162px;
-        }
-        #services .box img {
-            height: 169px;
-        }
-        #img6{
-            width: 225px;
-        }
-}
-/* Phone version */
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
     /* navigation */
     #navbar {
-        height: 50vh;
+        height: 18vh;
     }
     #logo{
-        height: 50vh;
+        height: 18vh;
     }
     nav img {
-        height: 40vh;
+        height: 18vh;
     }
     .nav-item {
+        position: absolute;
         top: 75px;
-        left: 138px;
+        left: 28%;
     }
     .Search {
-        left: 165px;
-    }
-    .search input{
-        height: 10vh;
-        color: black;
-        width: 37vw;
+        position: absolute;
+        top: 20px;
+        left: 28%;
     }
     #navbar button{
-        position: relative;
-        left: 257px;
-        margin: 19px 10px;
+        position: absolute;
+        left: 60%;
+        margin: 20px 0px;
     }
     .login{
-        flex-direction: column;
+        position: absolute;
+        top: 20px;
+        right: 70px;
         color: black;
     }
-    
 /* home */
     #home{
         padding: 3px 34px;
     }
-    #home h1{
-        top: 44px;
-    }
     .h-primary{
         position: relative;
     }
     #home p{
         top: 44px;
     }
-
+    #home button {
+        position: relative;
+        bottom: -70px;
+    }
 /* services */
+    #services .box img {
+        height: 123px;
+    }
+    #services .box {
+        padding: 16px;
+        margin: auto;
+    }
+    #img6 {
+        width: 182px;
+    }
+}
+@media screen and (max-width:700px){
+    .login{
+        flex-direction: column;
+    }
     #services{
         flex-direction: column;
     }
-    #img6{
-        width: 193px;
+    #services .box {
+        padding: 16px;
+        margin: 10px 176px;
     }
+    #services .box img {
+        height: 151px;
+    }
+    #img6{
+        width: 231px;
+    }
+}
+@media screen and (max-width:625px){
     #services .box img {
         height: 120px;
     }
-}
-@media screen and (max-width:561px){
-        /* navigation */
-    #navbar {
-        height: 50vh;
+    #img6 {
+        width: 192px;
     }
-    #logo{
-        height: 50vh;
+}
+/* @media screen and (max-width:568px){
+    #services .box img {
+        height: 90px;
+    }
+    #img6 {
+        width: 128px;
+    }
+} */
+@media screen and (max-width:600px){
+    #navbar {
+        height: 44vh;
     }
     nav img {
-        height: 40vh;
+        margin: 4px 15px;
+        height: 12vh;
     }
-    .nav-item {
+    .nav-item{
+        display: block;
         top: 75px;
-        left: 110px;
+        left: 33%;
     }
-    .Search {
-        left: 172px;
-    }
-    .search input{
-        height: 10vh;
-        color: black;
-        width: 37vw;
-    }
-    #navbar button{
-        position: relative;
-        left: 248px;
-        margin: 18px 10px;
+    .item {
+        padding: 8px 0px;
     }
     .login{
-        flex-direction: column;
-        color: black;
+        left: auto;
+        right: 0px;
     }
-    
-/* home */
-    #home{
-        padding: 0px 34px;
+    /* home */
+    #home {
+        height: 738px;
     }
-    #home h1{
-        top: 52px;
+    #home::before {
+        height: 149%;
     }
-    .h-primary{
-        position: relative;
+    #home button {
+        bottom: -8px;
     }
-    #home p{
-        top: 52px;
+    /* services */
+    #services .box {
+        padding: 16px;
+        margin: 10px auto;
     }
-
-/* services */
-    #services{
-        flex-direction: column;
+    /* client */
+    #clients{
+        flex-wrap: wrap;
     }
-    #services .box img {
-        height: 116px;
-        width: 177px;
+    #client-section {
+        height: auto;
+    }
+    #client-section::before {
+        height: 50.3%;
     }
 }
+/* @media screen and (max-width:390px){
+    #navbar{
+        height: 15vh;
+    }
+    #logo{
+        height: 10vh;
+    }
+    nav img {
+        height: 10vh;
+    }
+    .nav-item{
+        position: absolute;
+        top: 102px;
+        left: 9%;
+    }
+    .Search{
+        position: absolute;
+        top: 36px;
+        left: 29%;
+    }
+    #navbar button{
+        position: absolute;
+        left: 60%;
+        margin: 34px 0px;
+        height: 3vh;
+    }
+    .login{
+        top: 28px;
+        right: 6px;
+    }
+    #home{
+        height: 620px;
+    }
+    #home::before{
+        height: 74%;
+    }
+    #home button {
+        bottom: -24px;
+    }
+    #services .box {
+        padding: 5px;
+        margin: 4px 88px;
+    }
+    #clients{
+        flex-wrap: wrap;
+    }
+    #client-section{
+        height: 249px;
+        margin: 15px 0px 0px 0px;
+    }
+    #client-section::before {
+        height: 29.5%;
+    }
+    .client-item {
+        padding: 0px 8px;
+    }
+    #contact{
+        height: 304px;
+    }
+    #contact::before {
+        height: 77%;
+    }
+    footer{
+        height: 4vh;
+    }
+} */
