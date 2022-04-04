@@ -1,253 +1,97 @@
-@media screen and  (max-width:1245px){
-/* navigation */
-    #navbar {
-        height: 11vh;
-    }
-    #navbar::before {
-        width: 100%;
-        height: 100%;
-    }
-    #logo{
-        height: 11px;
-    }
-    nav img {
-        margin: 4px 15px;
-        height: 12vh;
-    }
-    .btn{
-        height: 4vh;
-        margin: 17px 10px;
-    }
-    /* Home */
-    #home {
-        height: 494px;
-    }
-    #home::before{
-        height: 100%;
-    }
-    /* services */
-
-    /* client */
-    #client-section::before {
-        height: 46%;
-    }
-    #client-section{
-        height: 230px;
-    }
-
-    /* contact */
-    #contact {
-        height: 350px;
-    }
-    #contact::before {
-        height: 70%;
-    }
-    /* footer */
-    footer{
-        height: 10vh;
-    }
-}
-@media screen and (max-width:900px){
-    /* navigation */
-    #navbar {
-        height: 18vh;
-    }
-    #logo{
-        height: 18vh;
-    }
-    nav img {
-        height: 18vh;
-    }
-    .nav-item {
-        position: absolute;
-        top: 75px;
-        left: 28%;
-    }
-    .Search {
-        position: absolute;
-        top: 20px;
-        left: 28%;
-    }
-    #navbar button{
-        position: absolute;
-        left: 60%;
-        margin: 20px 0px;
-    }
-    .login{
-        position: absolute;
-        top: 20px;
-        right: 70px;
-        color: black;
-    }
-/* home */
-    #home{
-        padding: 3px 34px;
-    }
-    .h-primary{
-        position: relative;
-    }
-    #home p{
-        top: 44px;
-    }
-    #home button {
-        position: relative;
-        bottom: -70px;
-    }
-/* services */
-    #services .box img {
-        height: 123px;
-    }
-    #services .box {
-        padding: 16px;
-        margin: auto;
-    }
-    #img6 {
-        width: 182px;
-    }
-}
-@media screen and (max-width:700px){
+@media only screen and (max-width:850px){
     .login{
         flex-direction: column;
+    }
+}
+@media only screen and (max-width:800px){
+    .nav-item{
+        display: block;
+        position: relative;
+        top: 60px;
+        left: 213px;
+    }
+    .Search{
+        position: relative;
+        right: 18%;
+    }
+    .navbar button{
+        position: relative;
+        right: 16%;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 6%;
+        top: 30%;
+    }
+    .v-class{
+        opacity: 0;
+        left: 25%;
+    }
+    .line{
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 3px 3px;
+    }
+    .login{
+        flex-direction: column;
+        right: 27%;
+        top: 10px;
+    }
+    #home p{
+        padding: 0px 40px;
     }
     #services{
         flex-direction: column;
     }
-    #services .box {
-        padding: 16px;
-        margin: 10px 176px;
+    #services .box{
+        margin: 5px auto;
     }
-    #services .box img {
-        height: 151px;
-    }
-    #img6{
-        width: 231px;
-    }
-}
-@media screen and (max-width:625px){
-    #services .box img {
-        height: 120px;
-    }
-    #img6 {
-        width: 192px;
-    }
-}
-/* @media screen and (max-width:568px){
-    #services .box img {
-        height: 90px;
-    }
-    #img6 {
-        width: 128px;
-    }
-} */
-@media screen and (max-width:600px){
-    #navbar {
-        height: 44vh;
-    }
-    nav img {
-        margin: 4px 15px;
-        height: 12vh;
-    }
-    .nav-item{
-        display: block;
-        top: 75px;
-        left: 33%;
-    }
-    .item {
-        padding: 8px 0px;
-    }
-    .login{
-        left: auto;
-        right: 0px;
-    }
-    /* home */
-    #home {
-        height: 738px;
-    }
-    #home::before {
-        height: 149%;
-    }
-    #home button {
-        bottom: -8px;
-    }
-    /* services */
-    #services .box {
-        padding: 16px;
-        margin: 10px auto;
-    }
-    /* client */
     #clients{
         flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:640px){
+    .login{
+        display: none;
+    }
+    .navbar button {
+        right: 25%;
+    }
+    .Search {
+        right: 28%;
+    }
+    .h-primary{
+        padding: 0px 40px;
     }
     #client-section {
         height: auto;
+        margin: 35px 0px 0px 0px;
     }
-    #client-section::before {
-        height: 50.3%;
+    #clients {
+        flex-wrap: wrap;
+        padding: 17px 0px;
     }
 }
-/* @media screen and (max-width:390px){
-    #navbar{
-        height: 15vh;
+@media only screen and (max-width:530px){
+    .v-class{
+        left: 15%;
     }
-    #logo{
-        height: 10vh;
+}
+@media only screen and (max-width:420px){
+    nav img{
+        height: 7vh;
     }
-    nav img {
-        height: 10vh;
-    }
-    .nav-item{
-        position: absolute;
-        top: 102px;
-        left: 9%;
+    .navbar{
+        height:7vh;
     }
     .Search{
-        position: absolute;
-        top: 36px;
-        left: 29%;
+        display: none;
+        opacity: 0;
     }
-    #navbar button{
-        position: absolute;
-        left: 60%;
-        margin: 34px 0px;
-        height: 3vh;
+    .navbar button {
+        display: none;
     }
-    .login{
-        top: 28px;
-        right: 6px;
-    }
-    #home{
-        height: 620px;
-    }
-    #home::before{
-        height: 74%;
-    }
-    #home button {
-        bottom: -24px;
-    }
-    #services .box {
-        padding: 5px;
-        margin: 4px 88px;
-    }
-    #clients{
-        flex-wrap: wrap;
-    }
-    #client-section{
-        height: 249px;
-        margin: 15px 0px 0px 0px;
-    }
-    #client-section::before {
-        height: 29.5%;
-    }
-    .client-item {
-        padding: 0px 8px;
-    }
-    #contact{
-        height: 304px;
-    }
-    #contact::before {
-        height: 77%;
-    }
-    footer{
-        height: 4vh;
-    }
-} */
+}

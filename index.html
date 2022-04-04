@@ -16,13 +16,13 @@
     <!-- <link rel="stylesheet" madia="screen and (width:1245px)" href="height.css"> -->
 </head>
 <body>
-    <nav id="navbar">
+    <nav class="navbar background">
         <!-- logo -->
         <div id="logo">
             <img src="logo.png" alt="OnlineMeal.com">
         </div>
         <!-- Nav items -->
-        <ul class="nav-item">
+        <ul class="nav-item v-class">
             <li class="item"><a href="#">Home</a></li>
             <li class="item"><a href="#">Contact Us</a></li>
             <li class="item"><a href="#">About</a></li>
@@ -39,9 +39,13 @@
             <a href="#">Login</a>
             <a href="#">Sign In</a>
         </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
     </nav>
-    <main>
-        <section id="home">
+        <section class="background" id="home">
             <h1 class="h-primary">Welocme to OnlineMeal.com</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis voluptatum iste, qui fuga atque provident corporis consequatur? Commodi eligendi voluptatem, enim</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -68,7 +72,7 @@
             </div>
         </section>
         <!-- client section -->
-        <section id="client-section">
+        <section class="background2" id="client-section">
             <h1 class="h-primary center">Our Client</h1>
             <div id="clients">
                 <div class="client-item">
@@ -89,7 +93,7 @@
             </div>
         </section>
         <!-- contact section -->
-        <section id="contact">
+        <section class="background3" id="contact">
             <h1 class="h-primary center">Contact Us</h1>
             <div id="contact-box">
                 <form action="">
@@ -114,7 +118,6 @@
                 </form>
             </div>
         </section>
-    </main>
     <footer class="General">
         <p>Copywrite &copy; OnlineMeal.com</p>
     </footer>

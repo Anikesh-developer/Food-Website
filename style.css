@@ -6,40 +6,35 @@
     padding: 0;
 }
 /* navbar css */
-#navbar{
+.navbar{
     display: flex;
     height: 11vh;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
-    position:absolute;
+    position:sticky;
     top: 0px;
 }
-#navbar::before{
-    content: "";
-    position: absolute;
-    background-position: center ;
-    height: 90%;
-    width:100%;
-    z-index: -1;
-    opacity:1;
-    top: 0px;
-    left: 0px;
+.background{
+    background: rgba(0,0,0,0.7) url('footer.png') center center/cover;
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 nav img{
     margin: 1px 15px;
     height: 10vh;
 }
-#navbar ul li a{
+.navbar ul li a{
     display: block;
     text-decoration: none;
     color: white;
-    border-radius: 20px;
 }
-#navbar ul li a:hover{
+.navbar ul li a:hover{
     color: white;
     background-color: black;
-    border-radius: 30px;
-    padding:2px 2px;
+    border-radius: 40px;
+    font-weight: bolder;
+    padding: 2px;
 }
 .nav-item{
     display: flex;
@@ -65,7 +60,7 @@ nav img{
     padding: 1px 2px;
     background-color: #c04b4b00;
     color: white;
-    border: 2px solid black;
+    border: 2px solid #f4511e;
 }
 /* login and sign in */
 .login{
@@ -74,40 +69,46 @@ nav img{
     justify-content: center;
     position: absolute;
     top: 16px;
-    right: 25px;
+    right: 20px;
 }
 .login a{
     text-decoration: none;
-    color:black;
-    margin: 0px 10px;
-    font-weight: bold;
+    color: aliceblue;
+    margin: 0px 5px;
+    font-weight: lighter;
 }
 .login a:hover{
     color: white;
     background-color: black;
     border-radius: 30px;
-    padding:2px 2px;
+    font-weight: bolder;
+    padding: 4px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 6%;
+    top: 38%;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
 }
 /* Home section */
 #home{
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
+    width: 100vw;
     height: 550px;
     justify-content: center;
     align-items: center;
 }
-#home::before{
-    content: "";
-    position: absolute;
-    background: url("footer.png") no-repeat center center/cover;
-    background-position: center ;
-    height: 100%;
-    width:100%;
-    z-index: -1;
-    opacity:0.89;
-    top: 0px;
-    left: 0px;
+#home button{
+    margin: 33px 10px;
+    padding: 12px;
 }
 /* services section */
 .services-container{
@@ -138,15 +139,13 @@ nav img{
     height: 212px;
     margin: 35px 0px 0px 0px;
 }
-#client-section::before{
-    content: "";
-    position: absolute;
-    background: url("client-bg.png") no-repeat;
-    height: 38%;
-    width: 100%;
-    z-index: -1;
-    opacity: .4;
-    background-position: center;
+#client-section h1{
+    color: aliceblue;
+}
+.background2{
+    background: rgba(0,0,0,0.7) url('img2.png') center center/cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
 }
 #clients{
     display: flex;
@@ -158,21 +157,20 @@ nav img{
 }
 /* contact section */
 #contact{
-    height: 300px;
+    height: 310px;
 }
-#contact::before{
-    content: "";
-    position: absolute;
-    background: url("footer.png") no-repeat top center/cover;
-    height: 55%;
-    width: 100%;
-    z-index: -1;
-    opacity: .4;
+.background3{
+    background: rgba(0,0,0,0.7) url('img3.png') center center/cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hue;
 }
 #contact-box{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#contact h1{
+    color: aliceblue;
 }
 #contact form{
     width:50%;
