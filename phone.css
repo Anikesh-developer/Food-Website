@@ -3,42 +3,31 @@
         flex-direction: column;
     }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:900px){
     .nav-item{
-        display: block;
-        position: relative;
-        top: 60px;
-        left: 213px;
+        flex-direction: column;
+        opacity: 0;
+    }
+    .navbar{
+        transition: all 0.3s ease-in-out;
     }
     .Search{
-        position: relative;
-        right: 18%;
+        display: none;
     }
     .navbar button{
-        position: relative;
-        right: 16%;
-    }
-    .burger{
-        display: block;
-        position: absolute;
-        cursor: pointer;
-        right: 6%;
-        top: 30%;
-    }
-    .v-class{
-        opacity: 0;
-        left: 25%;
-    }
-    .line{
-        width: 33px;
-        background-color: white;
-        height: 4px;
-        margin: 3px 3px;
+        display: none;
+    }   
+    .item{
+        padding: 6px 0px;
     }
     .login{
+        opacity: 0;
         flex-direction: column;
         right: 27%;
         top: 10px;
+    }
+    #home{
+        height: 360px;
     }
     #home p{
         padding: 0px 40px;
@@ -52,16 +41,31 @@
     #clients{
         flex-wrap: wrap;
     }
+    .burger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 6%;
+        top: 6%;
+    }
+    .line{
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 3px 3px;
+    }
+    .nav-resp{
+        height: 28vh;
+    }
+    .v-class{
+        opacity: 1;
+        position: relative;
+        left: 29%;
+    }
 }
-@media only screen and (max-width:640px){
+@media only screen and (max-width:700px){
     .login{
         display: none;
-    }
-    .navbar button {
-        right: 25%;
-    }
-    .Search {
-        right: 28%;
     }
     .h-primary{
         padding: 0px 40px;
@@ -74,18 +78,15 @@
         flex-wrap: wrap;
         padding: 17px 0px;
     }
-}
-@media only screen and (max-width:530px){
-    .v-class{
-        left: 15%;
+    .v-class {
+        opacity: 1;
+        position: relative;
+        left: 24%;
     }
 }
 @media only screen and (max-width:420px){
     nav img{
         height: 7vh;
-    }
-    .navbar{
-        height:7vh;
     }
     .Search{
         display: none;
@@ -93,5 +94,17 @@
     }
     .navbar button {
         display: none;
+    }
+    .v-class {
+        opacity: 1;
+        position: relative;
+        left: 14%;
+    }
+}
+@media only screen and (max-width:400px){
+    .v-class {
+        opacity: 1;
+        position: relative;
+        left: 5%;
     }
 }

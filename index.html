@@ -16,20 +16,20 @@
     <!-- <link rel="stylesheet" madia="screen and (width:1245px)" href="height.css"> -->
 </head>
 <body>
-    <nav class="navbar background">
+    <nav class="navbar background nav-resp">
         <!-- logo -->
         <div id="logo">
             <img src="logo.png" alt="OnlineMeal.com">
         </div>
         <!-- Nav items -->
         <ul class="nav-item v-class">
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">Contact Us</a></li>
-            <li class="item"><a href="#">About</a></li>
-            <li class="item"><a href="#">Blog</a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+            <li class="item"><a href="#Services">Services</a></li>
+            <li class="item"><a href="#client-section">Clients</a></li>
         </ul>
         <!-- Serach bar -->
-        <div class="Search">
+        <div class="Search" >
             <input type="text" placeholder="Search Here">
         </div>
         <!-- search btn -->
@@ -51,7 +51,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn">Order Now</button>
         </section>
-        <section class="services-container">
+        <section class="services-container" id="Services">
             <h1 class="h-primary center">Our Services</h1>
             <div id="services">
                 <div class="box">
@@ -121,6 +121,7 @@
     <footer class="General">
         <p>Copywrite &copy; OnlineMeal.com</p>
     </footer>
+<script src="js/resp.js"></script>
 </body>
 
 </html>
