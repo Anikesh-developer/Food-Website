@@ -13,7 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="phone.css">
-    <!-- <link rel="stylesheet" madia="screen and (width:1245px)" href="height.css"> -->
 </head>
 <body>
     <nav class="navbar background nav-resp">
@@ -36,7 +35,7 @@
         <button class="btn">Search</button>
         <!-- Login and sign in -->
         <div class="login">
-            <a href="#">Login</a>
+            <a href="login.html" target="_blank" >Login</a>
             <a href="#">Sign In</a>
         </div>
         <div class="burger">
@@ -51,20 +50,21 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn">Order Now</button>
         </section>
+        <!-- services section-->
         <section class="services-container" id="Services">
             <h1 class="h-primary center">Our Services</h1>
             <div id="services">
-                <div class="box">
+                <div class="box" id="shadow1">
                     <img src="img5.png" alt="">
                     <h2 class="h-secondary center">Delivery</h2>
                     <p class="center">Lorem ipsum dolor</p>
                 </div>
-                <div class="box">
+                <div class="box" id="shadow2">
                     <img src="img1.png" alt="">
                     <h2 class="h-secondary center">Food Ordering</h2>
                     <p class="center">Lorem ipsum dolor</p>
                 </div>
-                <div class="box">
+                <div class="box" id="shadow3">
                     <img id="img6" src="img6.png" alt="" width="195px" height="131px">
                     <h2 class="h-secondary center">Dine-In</h2>
                     <p class="center">Lorem ipsum dolor</p>
@@ -115,6 +115,7 @@
                         <label for="name">Address :</label>
                         <textarea type="message" id="message" name="name" placeholder="Type your Address" ></textarea>
                     </div>
+                    <button class="btn center">Submit</button>
                 </form>
             </div>
         </section>

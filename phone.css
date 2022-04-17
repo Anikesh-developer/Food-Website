@@ -6,7 +6,7 @@
 @media only screen and (max-width:900px){
     .nav-item{
         flex-direction: column;
-        opacity: 0;
+        display: none;
     }
     .navbar{
         transition: all 0.3s ease-in-out;
@@ -27,7 +27,7 @@
         top: 10px;
     }
     #home{
-        height: 360px;
+        height: 400px;
     }
     #home p{
         padding: 0px 40px;
@@ -58,9 +58,9 @@
         height: 28vh;
     }
     .v-class{
-        opacity: 1;
         position: relative;
         left: 29%;
+        display: flex;
     }
 }
 @media only screen and (max-width:700px){
@@ -79,9 +79,17 @@
         padding: 17px 0px;
     }
     .v-class {
+        display: flex;
         opacity: 1;
         position: relative;
         left: 24%;
+    }
+    #contact{
+        height:314px;
+    }
+    #contact button{
+        padding: 10px 4px;
+        margin: 6px 0px;
     }
 }
 @media only screen and (max-width:420px){

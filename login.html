@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif
+        }
+        .wrapper{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        .card{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #282326;
+        }
+        .glass{
+            position: relative;
+            top: 30%;
+            left: 25%;
+            border-radius: 20px;
+            width: 50%;
+            text-align: center;
+        }
+        .glass:hover{
+            background-image: linear-gradient(45deg, #9f8b91, transparent);
+            box-shadow: 17px 14px 7px #3f363b;
+            transition: all 0.3s cubic-bezier(0.74, 0.56, 0.27, -0.15);
+        }
+        .login{
+            color: #eff7e6;
+        }
+        .logo{
+            padding: 12px;
+        }
+        .inside1{
+            padding: 12px 0px;
+        }
+        .inside1 label{
+            color: aliceblue;
+            position: relative;
+            right: 42%;
+        }
+        .inside1 input{
+            width: 100%;
+            border-radius: 4px;
+            padding: 4px;
+        }
+        button{
+            padding: 4px 50px;
+            margin: 9px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #google{
+            width: 10%;
+            position: relative;
+            left: 4%;
+            cursor: pointer;
+        }
+        #insta{
+            position: relative;
+            width: 16%;
+            left: 7%;
+            cursor: pointer;
+        }
+        #twit{
+            position: relative;
+            width: 16%;
+            left: 9%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <video class="wrapper" src="bg video.mp4" muted autoplay loop ></video>
+        <div class="glass">
+            <h1 class="login">Login</h1>
+            <form action="">
+                <div class="inside1">
+                    <label for="name">Email</label>
+                    <input type="email" name="email" placeholder="Enter your Email">
+                </div>
+                <div class="inside1">
+                    <label for="name">Password</label>
+                    <input type="password" name="password" placeholder="Enter the Password">
+                </div>
+                <button>Log in</button>
+            </form>
+            <div class="logo">
+                <img id="google" src="google.png" alt="">
+                <img id="insta" src="instgram.png" alt="">
+                <img id="twit" src="Twitter.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

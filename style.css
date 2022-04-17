@@ -116,13 +116,16 @@ nav img{
 /* services section */
 .services-container{
     margin: 32px 0px 0px 0px;
+    width: 100vw;
 }
 #services{
     display: flex;
-    background-color: #e7dfdf30;
+    /* background-color: #e7dfdf30; */
+    background: rgba(0,0,0,0.7) url("img3.png") center  center/cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hue;
 }
 #services .box{
-    border: 2px solid brown;
     padding: 34px;
     margin:auto;
     border-radius: 15px 47px;
@@ -134,16 +137,27 @@ nav img{
     margin: auto;
     border-radius: 25px 0px;
 }
+#shadow1:hover{
+    box-shadow: -18px 0px 44px #efebe9;
+    transition: all .7s cubic-bezier(0.77, 0.82, 0.32, 0.17);
+}
+#shadow2:hover{
+    box-shadow: 18px 0px 44px #efebe9;
+    transition: all .7s cubic-bezier(0.77, 0.82, 0.32, 0.17);
+}
+#shadow3:hover{
+    box-shadow: -18px 0px 44px #efebe9;
+    transition: all .7s cubic-bezier(0.77, 0.82, 0.32, 0.17);
+}
 #services .box p{
     font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
 }
 /* client section */
 #client-section{
     height: 212px;
     margin: 35px 0px 0px 0px;
-}
-#client-section h1{
-    color: aliceblue;
+    width: 100vw;
 }
 .background2{
     background: rgba(0,0,0,0.7) url('img2.png') center center/cover;
@@ -160,7 +174,8 @@ nav img{
 }
 /* contact section */
 #contact{
-    height: 310px;
+    height: 330px;
+    width: 100vw;
 }
 .background3{
     background: rgba(0,0,0,0.7) url('img3.png') center center/cover;
@@ -187,8 +202,14 @@ nav img{
     padding: 0.5rem;
     border-radius: 9px;
 }
+#contact button{
+    padding: 6px;
+    margin: 4px;
+}
+/* footer */
 footer{
     height: 5vh;
+    width: 100vw;
     background-color:var(--main-bg-color);
     background-position: center;
     color: white;
